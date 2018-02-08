@@ -1,6 +1,8 @@
 
 
-var words = ["alphabet", "megaman", "emblem", "javascript"];
+var words = ["luigi", "megaman", "emblem", "donkeykong", "mushroom", "fireflower", "ganondorf", "mastersword", "protoman", "waluigi", "knuckless", "metroid", 
+            "junglejaps", "finalfantasy", "dreamland", "pokemon", "castlevania", "iceclimber", "pacman", "punchout", "olimar", "pikmin", "excitebike", "bokoblin", 
+            "wizrobe", "squirtle", "starfox", "supernintendo", "yoshisisland", "bomberman", "fzero", "ridley"];
 var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
                'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
                 'w', 'x', 'y', 'z'];
@@ -29,7 +31,7 @@ function reset() {
     activeWord = words[Math.floor(Math.random() * words.length)];
     activeLetters = activeWord.split('');
     activeLength = activeLetters.length;
-    guessesRemaining = 12;
+    guessesRemaining = 14;
     blanks = [];
     correctLetters = [];
     usedLetters = []; 
@@ -46,7 +48,7 @@ function reset() {
 
     // console.log(activeWord);
     // console.log(activeLetters);
-    console.log(activeLength)
+    //console.log(activeLength)
     // console.log(blanks);
 
 }

@@ -3,24 +3,69 @@
   <head>
     <meta charset="UTF-8">
     <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
+        <div class="jumbotron">
+            <img src="" alt="">
+            <h1>Nintendo Hangman</h1>  
+        </div>
 
-    <h1>Open the console to see the magic!</h1>
 
-
-    <h2 class="hole">Letters Guessed</h2> 
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title hole">Letters Guessed</h3>
+            </div>
+            <div class="panel-body" id="usedLetter">
+                UsedLetters
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title countdown">Guesses Remaining</h3>
+            </div>
+            <div class="panel-body" id="guessesRemaining">
+                guessesRamaining
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title upToBat">Current Word</h3>
+            </div>
+            <div class="panel-body" id="word">
+                word
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title victory">Number of times you have won</h3>
+            </div>
+            <div class="panel-body" id="wCounter">
+                win
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title defeat">Number of time you have lost</h3>
+            </div>
+            <div class="panel-body" id="lCounter">
+                lose
+            </div>
+        </div>
+    <!-- <h2 class="hole">Letters Guessed</h2> 
     <p id="usedLetter">usedletters </p>
     <h2 class="countdown"> Number of guesses left</h2>
     <p id="guessesRemaining">  guessesRemaining</p>
     <h2 class="upToBat"> Current Word</h2>
-    <p id="word"> word   </p>
+    <p id="word"> word   </p> -->
 
 
-    <h2 class="victory"> Number of times you have won :</h2>
+    <!-- <h2 class="victory"> Number of times you have won :</h2>
     <p id="wCounter"> win</p>
     <h2 class="defeat"> Number of times you have lose :</h2>
-    <p id="lCounter"> lose</p>
+    <p id="lCounter"> lose</p> -->
     
   
 <script type="text/javascript" src="assets/javascript/game.js"></script>
