@@ -1,0 +1,30 @@
+.panel-body {
+    font-size: 18pt;
+}
+
+.panel-title {
+    font-size: 20pt;
+}
+
+.panel {
+    width: 75%;
+    margin-right: 80%
+}
+
+body {
+    background-image: url("../images/darkness.png");
+}
+
+.panel-body {
+    background-image: url("../images/gaming-pattern.png");
+}
+
+.jumbotron {
+    background-image: url("../images/pyramid.png");
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: bold;
+
+}

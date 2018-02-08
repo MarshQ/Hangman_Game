@@ -8,52 +8,62 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
   <body>
-        <div class="jumbotron">
-            <img src="" alt="">
-            <h1>Nintendo Hangman</h1>  
-        </div>
+        <div class="container background">
+                <div class="row">
+                    <div class="col-md-5">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="jumbotron">
+                            <h1>Nintendo Hangman</h1>  
+                        </div>
 
 
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title hole">Letters Guessed</h3>
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title hole">Letters Guessed</h3>
+                            </div>
+                            <div class="panel-body" id="usedLetter">
+                                UsedLetters
+                            </div>
+                        </div>
+                        <div class="panel panel-warning">
+                            <div class="panel-heading">
+                                <h3 class="panel-title countdown">Guesses Remaining</h3>
+                            </div>
+                            <div class="panel-body" id="guessesRemaining">
+                                guessesRamaining
+                            </div>
+                        </div>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <h3 class="panel-title upToBat">Current Word</h3>
+                            </div>
+                            <div class="panel-body" id="word">
+                                word
+                            </div>
+                        </div>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title victory">Number of times you have won</h3>
+                            </div>
+                            <div class="panel-body" id="wCounter">
+                                win
+                            </div>
+                        </div>
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                <h3 class="panel-title defeat">Number of time you have lost</h3>
+                            </div>
+                            <div class="panel-body" id="lCounter">
+                                lose
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-1">
+
+                    </div> -->
+                </div>
             </div>
-            <div class="panel-body" id="usedLetter">
-                UsedLetters
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title countdown">Guesses Remaining</h3>
-            </div>
-            <div class="panel-body" id="guessesRemaining">
-                guessesRamaining
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title upToBat">Current Word</h3>
-            </div>
-            <div class="panel-body" id="word">
-                word
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title victory">Number of times you have won</h3>
-            </div>
-            <div class="panel-body" id="wCounter">
-                win
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title defeat">Number of time you have lost</h3>
-            </div>
-            <div class="panel-body" id="lCounter">
-                lose
-            </div>
-        </div>
     <!-- <h2 class="hole">Letters Guessed</h2> 
     <p id="usedLetter">usedletters </p>
     <h2 class="countdown"> Number of guesses left</h2>
