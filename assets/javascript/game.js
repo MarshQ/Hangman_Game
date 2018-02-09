@@ -40,7 +40,7 @@ function reset() {
         blanks.push('_');
     }
     document.getElementById('word').innerHTML = blanks;
-// .join(' ')
+    // I was trying to get rid of the ,'s in the word with .join(" ") but couldnt seem to get it to work
     document.getElementById('guessesRemaining').innerHTML = guessesRemaining;
     document.getElementById('usedLetter').innerHTML = usedLetters;
     document.getElementById('wCounter').innerHTML = wins;
